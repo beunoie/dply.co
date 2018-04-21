@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install git make
+apt install -y git make
 git clone https://github.com/beunoie/debian-mariadb.git
 git clone https://github.com/beunoie/debian-nginx-php.git
 cd debian-mariadb
