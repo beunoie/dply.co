@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt -y install git make
-https://github.com/beunoie/pptpd.git
+git clone https://github.com/beunoie/pptpd.git
 cd pptpd
 make build >> /root/LOGS
 make run
