@@ -1,8 +1,8 @@
 #!/bin/bash
 
 apt -y install git make
-git clone https://github.com/beunoie/debian-mariadb.git
-git clone https://github.com/beunoie/debian-nginx-php.git
+git clone https://github.com/bmailliet/debian-mariadb.git
+git clone https://github.com/bmailliet/debian-nginx-php.git
 cd debian-mariadb
 make build >> /root/LOGS
 make run
